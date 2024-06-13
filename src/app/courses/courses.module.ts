@@ -5,8 +5,12 @@ import { CoursesComponent } from './courses/courses.component';
 import { CoursesRoutingModule } from './courses-routing.module';
 
 import { MatCardModule } from '@angular/material/card';
+import { SharedModule } from '../shared/shared.module';
 import { MatTableModule } from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     CoursesRoutingModule,
     MatTableModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    SharedModule,
+    MatButtonModule
   ]
 })
 export class CoursesModule {
