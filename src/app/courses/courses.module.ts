@@ -6,6 +6,7 @@ import { CoursesRoutingModule } from './courses-routing.module';
 
 import { MatCardModule } from '@angular/material/card';
 import { SharedModule } from '../shared/shared.module';
+import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
@@ -25,7 +26,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatProgressSpinnerModule,
     MatDialogModule,
     SharedModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ]
 })
 export class CoursesModule {
