@@ -12,10 +12,12 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { CourseFormComponent } from './course-form/course-form.component';
 
 @NgModule({
   declarations: [
-    CoursesComponent
+    CoursesComponent,
+    CourseFormComponent
   ],
   imports: [
     CommonModule,
